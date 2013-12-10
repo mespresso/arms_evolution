@@ -8,7 +8,7 @@ public class Player {
      * @param name
      * @param blood
      * @param damage
-     * */
+     */
     public Player(String name,int blood,int damage){
     	this.name = name;
     	this.blood = blood;

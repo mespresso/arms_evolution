@@ -8,10 +8,10 @@ public class TestGame {
 	
 	@Test
 	public void test() {
-		Player player1 = new Player("张三", 100, 10);
-		Player player2 = new Player("李四", 100, 10);
+		Player player1 = new Player("张三", 100, 15);
+		Player player2 = new Player("李四", 30, 10);
 		Game testCase = new Game(player1,player2);
-		
 		assertEquals("李四被打败了", testCase.play());
+		
 	}
 }
